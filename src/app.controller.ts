@@ -10,6 +10,7 @@ export class AppController {
   @Get()
   getHello() {
     return{
+      deploy: 'success!',
       message: 'hello epta!'
     }
   }
